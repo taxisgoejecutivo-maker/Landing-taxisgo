@@ -101,11 +101,11 @@
       color: var(--accent);
     }
 
-    .fleet-card {
+    .team-card {
       transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
-    .fleet-card:hover {
+    .team-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 20px 40px rgba(8, 24, 59, 0.12);
     }
@@ -135,7 +135,7 @@
       <div class="flex items-center gap-5 lg:gap-8">
         <div class="hidden md:flex items-center gap-6">
           <a href="#como-funciona" class="text-sm font-medium text-neutral-600 link-accent">Cómo funciona</a>
-          <a href="#flota" class="text-sm font-medium text-neutral-600 link-accent">Nuestra flota</a>
+          <a href="#conoce-taxisgo" class="text-sm font-medium text-neutral-600 link-accent">Conoce a TaxisGo</a>
           <a href="#conductores" class="text-sm font-medium text-neutral-600 link-accent">Conductores</a>
         </div>
         <div class="flex items-center gap-4">
@@ -346,49 +346,37 @@
       </div>
     </section>
 
-    <section id="flota" class="py-20 lg:py-28 bg-white">
+    <section id="conoce-taxisgo" class="py-20 lg:py-28 bg-white">
       <div class="max-w-7xl mx-auto px-6 lg:px-10">
-        <div class="max-w-xl mb-14 lg:mb-20">
-          <p class="text-sm font-semibold tracking-widest uppercase icon-accent mb-3">Nuestra flota</p>
+        <div class="max-w-2xl mx-auto text-center mb-14 lg:mb-20">
+          <p class="text-sm font-semibold tracking-widest uppercase icon-accent mb-3">Conoce a TaxisGo</p>
           <h2 class="text-3xl lg:text-4xl font-bold tracking-tight text-neutral-900 leading-tight">
-            El vehículo ideal para cada viaje
+            Confianza y Compromiso: El equipo detrás de TaxisGo
           </h2>
-          <p class="mt-4 text-neutral-500 font-medium leading-relaxed">
-            Elige entre tres categorías desde la app y disfruta de un servicio adaptado a tus necesidades y presupuesto.
-          </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
-          <article class="fleet-card rounded-2xl overflow-hidden bg-neutral-50 border border-neutral-100">
-            <div class="aspect-[4/3] overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Taxi económico TaxisGo" class="w-full h-full object-cover">
-            </div>
-            <div class="p-6 lg:p-8">
-              <h3 class="text-xl font-bold text-neutral-900 mb-2">Económico</h3>
-              <p class="text-sm font-semibold text-[#08183B] mb-3">Hasta 4 pasajeros</p>
-              <p class="text-neutral-500 text-sm leading-relaxed font-medium">Tarifas accesibles para el día a día. Ideal para trayectos cortos y viajes frecuentes por la ciudad.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <article class="team-card group">
+            <img src="foto-oficina.png" alt="Oficinas TaxisGo en Puerto La Cruz" class="w-full h-64 object-cover rounded-2xl shadow-xl">
+            <div class="mt-6 px-1">
+              <h3 class="text-xl font-bold text-neutral-900 mb-2">Nuestras Oficinas</h3>
+              <p class="text-neutral-500 leading-relaxed font-medium">Base de operaciones en Puerto La Cruz, siempre listos para atenderte.</p>
             </div>
           </article>
 
-          <article class="fleet-card rounded-2xl overflow-hidden bg-neutral-50 border border-neutral-100">
-            <div class="aspect-[4/3] overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80" alt="Taxi confort TaxisGo" class="w-full h-full object-cover">
-            </div>
-            <div class="p-6 lg:p-8">
-              <h3 class="text-xl font-bold text-neutral-900 mb-2">Confort</h3>
-              <p class="text-sm font-semibold text-[#08183B] mb-3">Hasta 4 pasajeros · A/C</p>
-              <p class="text-neutral-500 text-sm leading-relaxed font-medium">Vehículos amplios con aire acondicionado. Perfecto para viajes con equipaje o mayor comodidad.</p>
+          <article class="team-card group">
+            <img src="team1.png" alt="Equipo operativo TaxisGo" class="w-full h-64 object-cover rounded-2xl shadow-xl">
+            <div class="mt-6 px-1">
+              <h3 class="text-xl font-bold text-neutral-900 mb-2">Equipo Operativo</h3>
+              <p class="text-neutral-500 leading-relaxed font-medium">Profesionales comprometidos con tu seguridad y puntualidad.</p>
             </div>
           </article>
 
-          <article class="fleet-card rounded-2xl overflow-hidden bg-neutral-50 border border-neutral-100">
-            <div class="aspect-[4/3] overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=600&q=80" alt="Taxi ejecutivo TaxisGo" class="w-full h-full object-cover">
-            </div>
-            <div class="p-6 lg:p-8">
-              <h3 class="text-xl font-bold text-neutral-900 mb-2">Ejecutivo</h3>
-              <p class="text-sm font-semibold text-[#08183B] mb-3">Hasta 4 pasajeros · Premium</p>
-              <p class="text-neutral-500 text-sm leading-relaxed font-medium">Transporte de alto nivel para reuniones, aeropuerto y eventos. Máximo confort y discreción.</p>
+          <article class="team-card group">
+            <img src="team2.png" alt="Equipo comprometido TaxisGo" class="w-full h-64 object-cover rounded-2xl shadow-xl">
+            <div class="mt-6 px-1">
+              <h3 class="text-xl font-bold text-neutral-900 mb-2">Compromiso TaxisGo</h3>
+              <p class="text-neutral-500 leading-relaxed font-medium">Un equipo unido para brindarte la mejor experiencia de transporte ejecutivo.</p>
             </div>
           </article>
         </div>
@@ -486,7 +474,7 @@
           <p class="text-xs font-semibold tracking-widest uppercase text-neutral-400 mb-4">Navegación</p>
           <ul class="space-y-2.5">
             <li><a href="#como-funciona" class="text-sm font-medium text-neutral-600 link-accent">Cómo funciona</a></li>
-            <li><a href="#flota" class="text-sm font-medium text-neutral-600 link-accent">Nuestra flota</a></li>
+            <li><a href="#conoce-taxisgo" class="text-sm font-medium text-neutral-600 link-accent">Conoce a TaxisGo</a></li>
             <li><a href="#conductores" class="text-sm font-medium text-neutral-600 link-accent">Únete como conductor</a></li>
             <li><a href="#reserva" class="text-sm font-medium text-neutral-600 link-accent">Reservar viaje</a></li>
           </ul>
